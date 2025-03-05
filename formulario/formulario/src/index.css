@@ -1,3 +1,15 @@
 *{
   font-family: 'Barlow', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p {
+  color: #fff;
+  font-weight: 500;
+}
+
+body {
+  background-color: #6a81e9;
 }

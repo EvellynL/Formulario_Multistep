@@ -1,0 +1,87 @@
+.app {
+    padding: 2rem;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.header h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #fff
+}
+
+/* forms */
+
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #93a5f1;
+    padding: 1.5rem;
+    box-shadow: rgba(65, 65, 71, 0.2) 0px 7px 29px 0px;
+    border-radius: 10px;
+}
+
+.form-container form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-container p {
+    color: #303030;
+}
+
+.inputs-container {
+    min-height: 280px;
+}
+
+.form-control {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2rem;
+}
+
+label {
+    font-weight: bold;
+    color: #000;
+    font-size: 0.9rem;
+}
+
+input,
+textarea {
+    padding: 0.9rem;
+    border: none;
+    border-style: 3px;
+    box-shadow: rgba( 99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+textarea {
+    height: 120px;
+}
+
+/* Actions */
+.actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.actions button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    display: flex;
+    gap: .5rem;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #dfdfdf;
+    cursor: pointer;
+    border: none;
+    transition: 0.5s;
+}
+
+.actions button:hover {
+    background-color: #c0c0c0;
+}
